@@ -10,3 +10,19 @@ Unit 1. 프로그래밍 기초 강좌 소개
    Runtime Error : 프로그램 실행 중 에러 메세지와 함께 갑자기 종료되는 것
    Semantic Error : 프로그램이 에러 메세지 없이 실행되지만, 사용자가 기대하지 않은 실행 결과가 나오는 것
 * 소프트웨어를 작성할 때 전체 기간의 "절반 이상"을 디버깅 과정에 할애
+- Python Version 3 : 간결하고 기본적인 사용 (https://www.python.org/downloads/release/python-370)
+- Pycharm IDE : 다양한 프로그래밍 및 디버깅 기능 (https://www.jetbrains.com/pycharm/download/download-thanks.html?platform=windows&code=PCC)
+- CS101 라이브러리 다운 (http://cs101.kaist.ac.kr/assets/files/cs101_libraries_py35.zip)
+* 보기 -> 옵션 -> 보기 -> 고급 설정 -> 숨김 파일 및 폴더 -> 숨김 파일, 폴더 및 드라이브 표시 적용/확인
+- 다운 받은 CS101 압축파일을 다음 폴더에 풀기 (C:\Users\[username]\AppData\Local\Programs\Python\[pythonversion]\Lib)
+- Pillow 설치 (윈도위 키 + R -> cmd실행 -> 4번째 줄 뒤에 "py -m pip install Pillow" 혹은 "python -m pip install Pillow"를 입력하여 Pillow 라이브러리 설치
+
+ 1-2 Python 프로그램 작성 예제
+
+- 새로운 함수 만들기
+   def 원하는 함수 이름1(): -> 기본 구조 / 새로운 함수를 만들 때 꼭 "def"라는 키워드를 처음 사용 / 함수의 정의
+     print("원하는 메세지1") -> 다음 줄은 2칸 띄고 해야함 / 없으면 해당 함수가 위 함수에 속하는건지 아닌지 구별이 안됨 / 함수의 호
+     print("원하는 메세지2") 
+   def 원하는 함수 이름2():
+     원하는 함수 이름1()
+     원하는 함수 이름1() -> 새롭게 만든 함수를 다시 새로운 함수를 만드는데 사용 가능
