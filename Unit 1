@@ -29,3 +29,7 @@ Unit 1. 프로그래밍 기초 강좌 소개
 
  1-2 Python 프로그램 작성 예제
 
+-  for 반복문
+   : 동일한 명령을 반복하는 명령어
+     for i in range(A):
+       print("B") -> B를 A만큼 반복함
