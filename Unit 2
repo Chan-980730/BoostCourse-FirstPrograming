@@ -2,4 +2,22 @@ Unit 2. if 조건문과 while 반복문
 
 2-1 if 조건문과 while 반복문
 
+- if it rains:
+       listen_to_cs101_lecture() -> 조건이 참이면 작업 수행
+  else:
+       eat_strawberries_in_the_sun() -> 조건이 거짓이면 작업 수행
+* if 뒤의 조건은 항상 참이나 거짓을 가짐
+- if True: -> 조건이 참임
+- if False: -> 조건이 거짓임
+- if 3 < 5: 
+       print("3 is less than 5")
+  else:
+       print("3 is larger than 5")
+-> 조건 값이 참이기 때문에 "3 is less than 5"
 
+- def move_and_pick():
+      hubo.move()
+      if hubo.on_beeper():
+          hubo.pick_beeper()
+  for i in range(9):
+        move_and_pick()
